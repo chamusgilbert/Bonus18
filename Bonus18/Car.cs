@@ -1,5 +1,4 @@
-﻿using System;
-namespace Bonus18
+﻿namespace Bonus18
 
 {
     class Car
@@ -16,12 +15,12 @@ namespace Bonus18
             this.model = model;
             this.year = year;
             this.price = price;
-            this.carInfo = string.Format("{0,10}  {1,10}  {2,4}   {3,15}", make, model, year, price);
+            this.carInfo = CarInfo(make, model, year, price);
         }
 
-        public static void Print(string info)
+        public virtual string CarInfo(string make, string model, int year, double price)
         {
-            Console.WriteLine(info);
+            return string.Format("{0,10}  {1,10}  {2,4}   {3,15}", make, model, year, price);
         }
 
 
@@ -29,10 +28,15 @@ namespace Bonus18
     class UsedCar : Car
     {
 
-        public UsedCar(string make, string model, int year, double price)
+        public UsedCar(string make, string model, int year, double price, double miles)
             : base(make, model, year, price)
         {
-
+            CarInfo(make, model, year, price, miles);
         }
+        public static string CarInfo(string make, string model, int year, double price, double miles)
+        {
+            return string.Format("{0,10} {1,10} {2,4} {3,15} {4,15}", make, model, year, price, miles);
+        }
+
     }
 }

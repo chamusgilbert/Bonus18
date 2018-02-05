@@ -20,12 +20,12 @@ namespace Bonus18
 
         public static List<Car> MakeLot()
         {
-            UsedCar car1 = new UsedCar("Toyota", "Prius", 2008, 10000);
-            UsedCar car2 = new UsedCar("Hyandai", "Santa Fe", 2007, 11200);
+            UsedCar car1 = new UsedCar("Toyota", "Prius", 2008, 10000, 100000);
+            UsedCar car2 = new UsedCar("Hyandai", "Santa Fe", 2007, 11200, 200000);
             Car car3 = new Car("Chevy", "Cobalt", 2009, 45000);
             Car car4 = new Car("Chevy", "Mustang", 2018, 99000);
             Car car5 = new Car("Jeep", "Wrangler", 2015, 60600);
-            UsedCar car6 = new UsedCar("Chevrolet", "Cavalier", 2001, 2000);
+            UsedCar car6 = new UsedCar("Chevrolet", "Cavalier", 2001, 2000, 300000);
 
             List<Car> carLot = new List<Car>() { car1, car2, car3, car4, car5, car6 };
 
