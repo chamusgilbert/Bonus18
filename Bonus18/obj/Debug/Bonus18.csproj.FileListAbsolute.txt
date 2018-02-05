@@ -1,0 +1,7 @@
+C:\Users\Grand Circus Student\source\repos\Bonus18\Bonus18\bin\Debug\Bonus18.exe.config
+C:\Users\Grand Circus Student\source\repos\Bonus18\Bonus18\bin\Debug\Bonus18.exe
+C:\Users\Grand Circus Student\source\repos\Bonus18\Bonus18\bin\Debug\Bonus18.pdb
+C:\Users\Grand Circus Student\source\repos\Bonus18\Bonus18\obj\Debug\Bonus18.csprojResolveAssemblyReference.cache
+C:\Users\Grand Circus Student\source\repos\Bonus18\Bonus18\obj\Debug\Bonus18.csproj.CoreCompileInputs.cache
+C:\Users\Grand Circus Student\source\repos\Bonus18\Bonus18\obj\Debug\Bonus18.exe
+C:\Users\Grand Circus Student\source\repos\Bonus18\Bonus18\obj\Debug\Bonus18.pdb
